@@ -68,8 +68,6 @@ Instead of building a generic demo app, this project focuses on a practical supp
 ## Documentation
 
 - [QA test plan](docs/qa_test_plan.md)
-- [English portfolio pitch](docs/portfolio_pitch_en.md)
-- [Chinese portfolio pitch](docs/portfolio_pitch_cn.md)
 - [Sample report](docs/sample_report.md)
 
 ## Next improvements
