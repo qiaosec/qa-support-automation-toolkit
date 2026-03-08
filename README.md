@@ -1,6 +1,6 @@
 # Support Ops Toolkit
 
-Portfolio-ready Python project for QA, technical support, and automation workflows.
+Python project for QA, technical support, and automation workflows.
 
 This tool ingests support ticket exports, scores urgency, estimates SLA risk, detects likely duplicate issues, and generates recruiter-friendly reports.
 
@@ -11,7 +11,7 @@ This tool ingests support ticket exports, scores urgency, estimates SLA risk, de
 - Support Operations Specialist
 - Automation-focused QA or support roles
 
-## What this project demonstrates
+## What it demonstrates
 
 - QA thinking: clear validation rules, repeatable outputs, and regression-oriented reporting
 - Support mindset: triage, SLA awareness, duplicate issue grouping, and operational prioritization
@@ -44,22 +44,13 @@ python -m src.support_ops_toolkit.cli analyze sample_data\tickets.csv --format m
 python -m unittest discover -s tests
 ```
 
-## Sample command and output
+## Example output
 
 ```powershell
 python -m src.support_ops_toolkit.cli analyze sample_data\tickets.csv --format markdown --output outputs\sample_report.md
 ```
 
 The generated example report is available in [outputs/sample_report.md](outputs/sample_report.md).
-
-## Why this stands out as a portfolio project
-
-Instead of building a generic demo app, this project focuses on a practical support and QA workflow:
-
-- it turns raw ticket data into structured triage output
-- it identifies duplicate problems that waste support time
-- it surfaces recurring categories that should become regression checks
-- it shows applied Python, not just tutorial code
 
 ## Resume / LinkedIn project description
 
@@ -68,7 +59,6 @@ Instead of building a generic demo app, this project focuses on a practical supp
 ## Documentation
 
 - [QA test plan](docs/qa_test_plan.md)
-- [Sample report](docs/sample_report.md)
 
 ## Next improvements
 
