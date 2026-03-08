@@ -4,6 +4,16 @@ Python project for QA, technical support, and automation workflows.
 
 This tool ingests support ticket exports, scores urgency, estimates SLA risk, detects likely duplicate issues, and generates recruiter-friendly reports.
 
+## Why it matters
+
+Support and QA teams often have raw ticket exports but no fast way to:
+
+- rank the most urgent incidents
+- spot duplicate issues
+- identify categories that should become regression tests
+
+This project turns that raw data into a structured report that is easier to act on.
+
 ## Best fit roles
 
 - QA Analyst / Junior QA Engineer
@@ -51,6 +61,16 @@ python -m src.support_ops_toolkit.cli analyze sample_data\tickets.csv --format m
 ```
 
 The generated example report is available in [outputs/sample_report.md](outputs/sample_report.md).
+
+Short output preview:
+
+```text
+## Summary
+- Ticket count: 10
+- Open tickets: 9
+- High SLA risk tickets: 2
+- Duplicate groups: 2
+```
 
 ## Resume / LinkedIn project description
 
