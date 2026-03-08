@@ -1,0 +1,11 @@
+ticket_id,title,description,priority,status,customer_tier,created_days_ago,category
+1001,Login fails after password reset,Users report login failure after reset email link is used,high,open,enterprise,4,auth
+1002,CSV export returns blank file,Export file is blank for large accounts and sales cannot download records,critical,open,enterprise,2,reporting
+1003,Dark mode button overlaps footer,UI overlap on small screens in settings page,low,in_progress,standard,7,ui
+1004,Login fails after password reset on mobile,Mobile users see invalid token after password reset flow,high,open,enterprise,5,auth
+1005,Webhook retries do not stop,Webhook delivery keeps retrying after receiving success response,medium,open,business,9,integrations
+1006,Agent dashboard is slow,Support dashboard takes more than ten seconds to load for some tenants,medium,open,business,6,performance
+1007,Customer cannot change billing contact,Billing contact form silently fails without error message,high,open,standard,11,billing
+1008,CSV export returns blank file for filtered report,Filtered export is also blank for enterprise finance team,critical,open,enterprise,1,reporting
+1009,Search input loses focus,Search box loses focus after each keystroke on Firefox,medium,resolved,standard,3,ui
+1010,SLA badge color is wrong,SLA risk badge shows green instead of red for overdue tickets,low,open,business,8,ops
